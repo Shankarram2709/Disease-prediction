@@ -6,7 +6,7 @@ To fit a model based on higher cross validation performance and save
 ```
 python3 main.py model -i  Path to csv file -o output path where model will be stored
 ```
-To predict the model with gui- Change the path to input file in aux.predict
+To predict the disease based on symptoms (Note:Change the path to model file in aux.predict)
 ```
 python3 main.py predict
 ```
