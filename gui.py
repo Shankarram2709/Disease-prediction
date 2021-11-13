@@ -177,5 +177,4 @@ def display_GUI():
     MainWindow.show()
     sys.exit(app.exec_())
 
-display = display_GUI()
-display()
+

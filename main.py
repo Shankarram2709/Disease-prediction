@@ -24,7 +24,7 @@ if __name__ == '__main__':
     if args.step == 'model':
         inpath  = args.inpath
         outpath = args.outpath
-        model_ = model(inpath, outpath)
+        model(inpath, outpath)
 
     if args.step == 'predict':
         display = display_GUI()
